@@ -41,6 +41,7 @@ namespace QuantConnect.ToolBox
 {
     public class Program
     {
+        //--app=kdl --tickers=ETH/USD --resolution=Tick --from-date=20220101-00:00:00 --to-date=20220201-00:00:00
         public static void Main(string[] args)
         {
             Log.DebuggingEnabled = Config.GetBool("debug-mode");

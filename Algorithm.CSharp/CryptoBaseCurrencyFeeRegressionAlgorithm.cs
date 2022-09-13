@@ -52,7 +52,7 @@ namespace QuantConnect.Algorithm.CSharp
         public override void Initialize()
         {
             SetBrokerageModel(BrokerageName, AccountType);
-            _symbol = AddCrypto(Pair, Resolution.Hour).Symbol;
+            _symbol = AddCrypto(Pair, Resolution.Minute).Symbol;
         }
 
         /// <summary>

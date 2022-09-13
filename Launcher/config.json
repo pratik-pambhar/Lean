@@ -6,10 +6,10 @@
   // two predefined environments, 'backtesting' and 'live', feel free
   // to add more!
 
-  "environment": "backtesting", // "live-paper", "backtesting", "live-interactive", "live-interactive-iqfeed"
+  "environment": "live-binance", // "live-paper", "backtesting", "live-interactive", "live-interactive-iqfeed"
 
   // algorithm class selector
-  "algorithm-type-name": "BasicTemplateFrameworkAlgorithm",
+  "algorithm-type-name": "BinanceCashAccountFeeRegressionAlgorithm",
 
   // Algorithm language selector - options CSharp, Python
   "algorithm-language": "CSharp",
@@ -66,8 +66,8 @@
   "transaction-log": "",
 
   // To get your api access token go to quantconnect.com/account
-  "job-user-id": "0",
-  "api-access-token": "",
+  "job-user-id": "209902",
+  "api-access-token": "cb0796b487320362226b15e27f8605d7dcb72fbe68696085a0d899bf2fafa9e2",
   "job-organization-id": "",
 
   // live data configuration
@@ -124,8 +124,8 @@
   "bitfinex-api-key": "",
 
   // binance configuration
-  "binance-api-secret": "",
-  "binance-api-key": "",
+  "binance-api-secret": "ehQpsSKmL1NSTrBMp1MxRZXvM8RggMsz3rBAGmknq40onuKpa0V4AreDkzCg0wNR",
+  "binance-api-key": "BR0FaSJZfMNaYNXmoe9MTWZ6Rq5H0JZRPcz1dx6eZu7KrKn7pL4yaVh9GO3zeBk4",
   "binance-api-url": "https://api.binance.com",
   "binance-websocket-url": "wss://stream.binance.com:9443/ws",
 
