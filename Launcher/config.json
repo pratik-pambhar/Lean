@@ -6,7 +6,7 @@
   // two predefined environments, 'backtesting' and 'live', feel free
   // to add more!
 
-  "environment": "live-binance", // "live-paper", "backtesting", "live-interactive", "live-interactive-iqfeed"
+  "environment": "backtesting", // "live-paper", "backtesting", "live-interactive", "live-interactive-iqfeed"
 
   // algorithm class selector
   "algorithm-type-name": "BinanceCashAccountFeeRegressionAlgorithm",
@@ -23,6 +23,7 @@
 
   // engine
   "data-folder": "../../../Data/",
+  "binance-data-download-folder": "../../../../Lean/Data/",
 
   // debugging configuration - options for debugging-method LocalCmdLine, VisualStudio, Debugpy, PyCharm
   "debugging": false,

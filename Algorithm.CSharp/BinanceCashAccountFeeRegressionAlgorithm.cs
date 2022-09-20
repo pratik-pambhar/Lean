@@ -31,8 +31,8 @@ namespace QuantConnect.Algorithm.CSharp
         public override void Initialize()
         {
             SetAccountCurrency("USDT");
-            SetStartDate(2018, 05, 02);
-            SetEndDate(2018, 05, 03);
+            SetStartDate(2021, 01, 01);
+            SetEndDate(2021, 01, 10);
             BrokerageName = BrokerageName.Binance;
             Pair = "BTCUSDT";
             base.Initialize();
